@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  width: 600px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 100px auto;
+  padding: 20px 0;
+}
+
+.progress-bar {
+  width: 400px;
+  height: 20px;
+  background-color: lightgray;
+  margin: 10px auto;
+}
+
+.progress {
+  height: 100%;
+  background-color: green;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
